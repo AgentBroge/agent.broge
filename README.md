@@ -1,13 +1,5 @@
 **Note**: please consider this project a proof of concept. I don't intend to maintain it or merge pull requests. Feel free to fork and build it into something great!
 
-### Introduction
-
-Presenting **Agent.exe**: the easiest way to let Claude's new [computer use](https://www.anthropic.com/news/3-5-models-and-computer-use) capabilities take over your computer!
-
-<img width="387" alt="buy pizza" src="https://github.com/user-attachments/assets/c11cc8f1-6dcb-48f4-9d18-682f14edb77d">
-
-https://github.com/user-attachments/assets/2a371241-bc43-46d4-896e-256b3adc388d
-
 ### Motivation
 
 I wanted to see how good Claude's new [computer use](https://www.anthropic.com/news/3-5-models-and-computer-use) APIs were, and the default project they provided felt too heavyweight. This is a simple Electron app that lets Claude 3.5 Sonnet control your local computer directly. I was planning on adding a "semi-auto" mode where the user has to confirm each action before it executes, but each step is so slow I found that wasn't necessary and if the model is getting confused you can easily just hit the "stop" button to end the run.
