@@ -14,6 +14,13 @@ Welcome to Agent Broge, a cutting-edge AI assistant that seamlessly integrates w
 
 Presenting **Agent Broge**: the easiest way to let Claude's new [computer use](https://www.anthropic.com/news/3-5-models-and-computer-use) capabilities take over your computer!
 
+### Demo Video
+
+<video controls>
+  <source src="https://raw.githubusercontent.com/AgentBroge/agent.broge/main/assets/agent.broge.3 demo.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download the video](https://raw.githubusercontent.com/AgentBroge/agent.broge/main/assets/agent.broge.3 demo.mp4)
+</video>
+
 ### Motivation
 
 I wanted to see how good Claude's new [computer use](https://www.anthropic.com/news/3-5-models-and-computer-use) APIs were, and the default project they provided felt too heavyweight. This is a simple Electron app that lets Claude 3.5 Sonnet control your local computer directly. I was planning on adding a "semi-auto" mode where the user has to confirm each action before it executes, but each step is so slow I found that wasn't necessary and if the model is getting confused you can easily just hit the "stop" button to end the run.
